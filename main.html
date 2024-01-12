@@ -1,15 +1,57 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
-    <link rel="stylesheet" href="styles.css">
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+  <style>
+    th, td{
+      border-collapse: collapse;
+    }
+    table{
+      border:1px solid black;
+      border-radius: 10px;
+    }
+    th{
+      background-color: rgb(67, 67, 134);
+    }
+    tr:nth-child(even){
+      background-color: aqua;
+    }
+
+
+  </style>
 </head>
 <body>
-    <!-- add table here -->
-
-        
+  <table>
+    <thead>
+      <tr>
+        <th>Name</th>
+        <th>Kills</th>
+        <th>Saved</th>
+        <th>Deaths</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td>Hackername</td>
+        <td>5</td>
+        <td>12</td>
+        <td>3</td>
+      </tr>
+      <tr>
+        <td>Coder</td>
+        <td>3</td>
+        <td>4</td>
+        <td>5</td>
+      </tr>
+      <tr>
+        <td>Techie</td>
+        <td>5</td>
+        <td>5</td>
+        <td>7</td>
+      </tr>
+    </tbody>
+  </table>
 </body>
 </html>
